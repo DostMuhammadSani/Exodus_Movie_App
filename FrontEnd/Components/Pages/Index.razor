@@ -1,0 +1,58 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager 
+<img src="O.jpg" id="o" />
+<div class="cen">
+    <img src="T.png" id="t" />
+    <h1>
+        EXODUS
+    </h1>
+</div>
+<div class="loading-spinner-container">
+    <div class="loading-spinner"></div>
+</div>
+
+@code {
+    private bool firstRender = true;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Delay the navigation by 5 seconds
+            await Task.Delay(5000);
+
+            // Navigate to the Welcome page
+            NavigationManager.NavigateTo("/wel", forceLoad: true);
+        }
+    }
+}
+
+<style>
+    *{
+        overflow:hidden;
+    }
+    #o{
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        position: relative;
+        align-items: center;
+    }
+    .cen{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 80%;
+        color: whitesmoke;
+    }
+    .cen > h1{
+        position: absolute;
+        top: 70%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        max-width: 80%;
+        font-family: 'Times New Roman';
+    } 
+</style>

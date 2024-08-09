@@ -1,0 +1,114 @@
+﻿@page "/signin"
+@rendermode InteractiveServer
+@using ClassLibraryModel
+@using ClassLibrarydal
+
+<div class="sign-container">
+    <h1>Sign In</h1>
+    <form>
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" @bind="email" />
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" @bind="passs" />
+        </div>
+
+        <button type="button" class="btn-signin" @onclick="NavigateToPage3">Sign In</button>
+        <button type="button" class="btn-signin" @onclick="NavigateToPage4">Sign Up</button>
+    </form>
+    <h4>@errorMessage</h4>
+</div>
+@code {
+    [Inject] NavigationManager NavigationManager1 { get; set; }
+    [Inject] IJSRuntime JSRuntime { get; set; }
+
+    List<ModelUser> ListStudents { get; set; } = new List<ModelUser>();
+
+    protected override void OnInitialized()
+    {
+        ListStudents = DALClass.GetInformation();
+        base.OnInitialized();
+    }
+
+    String email;
+    String passs;
+    string errorMessage;
+
+    private void NavigateToPage3()
+    {
+        bool isValidCredentials = false;
+
+        foreach (ModelUser item in ListStudents)
+        {
+            if (email == item.EmailAddress && passs == item.pass)
+            {
+                isValidCredentials = true;
+                NavigationManager1.NavigateTo("/main", forceLoad: true);
+                break;
+            }
+        }
+
+        if (!isValidCredentials)
+        {
+            errorMessage = "Invalid email or password.";
+            // For simplicity, you can display an alert:
+            JSRuntime.InvokeVoidAsync("alert", errorMessage);
+        }
+    }
+
+    private void NavigateToPage4()
+    {
+        NavigationManager1.NavigateTo("/signup", forceLoad: true);
+    }
+}
+
+
+<style>
+    * {
+        background-color: black;
+        color: white;
+    }
+
+    .sign-container {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 160px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+     .   margin-bottom: 10px;
+    }
+
+    .btn-signin,
+    .btn-signup {
+        background-color: darkred;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .btn-signin:hover,
+        .btn-signup:hover {
+            background-color: darkred;
+        }
+
+</style> 

@@ -1,0 +1,68 @@
+﻿@page "/thor"
+@rendermode InteractiveServer
+<div class='Movie'>
+    <div class='Video'>
+        <iframe src="https://1drv.ms/v/s!Al-fYhZtQj3MbkjmAua26ObSJGM?e=SnNQyJ"></iframe>
+    </div>
+    <br />
+    <div class='MovieDetails'>
+        <img src="Tho.jpg" />
+        <div>
+            <h2> Name: Thor Ragnarok</h2>
+            <h2> Release Year: 2017</h2>
+            <div class="but">
+                <button id="h">HD</button>
+                <button id="i" @onclick="I5">IMDB</button>
+            </div>
+        </div>
+
+    </div>
+    <br />
+    <div class='Description'>
+        <article>
+            <h3>
+                "Thor: Ragnarok" is a Marvel superhero film that finds Thor, the Asgardian God of Thunder, imprisoned on a distant planet called Sakaar without his mighty hammer. Forced into gladiatorial combat, Thor must battle his fellow Avenger, the Hulk, and unite a team to escape and save Asgard from the impending threat of Ragnarok—a prophecy of total destruction.
+        
+        </h3>
+        </article>
+
+
+
+    </div>
+</div>
+
+@code {
+    [Inject] NavigationManager NavigationManager8 { get; set; }
+
+
+    public void I5()
+    {
+        NavigationManager8.NavigateTo("https://www.imdb.com/title/tt3501632/?ref_=fn_al_tt_3", forceLoad: true);
+    }
+
+}
+
+}
+<style>
+    * {
+        background-color: black;
+    }
+
+    .Video > iframe {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .MovieDetails > h2 {
+        margin-left: 20px;
+    }
+
+    .MovieDetails > img {
+        width: 10vw;
+        height: 20vh;
+    }
+
+    article {
+        width: 60vw;
+    }
+</style>

@@ -1,0 +1,67 @@
+﻿@page "/life"
+@rendermode InteractiveServer
+<div class='Movie'>
+    <div class='Video'>
+        <iframe src="https://www.youtube.com/embed/XmtXC_n6X6Q"></iframe>
+    </div>
+    <br />
+    <div class='MovieDetails'>
+        <img src="Oup.jpg" />
+        <div>
+            <h2> Name: Our Planet</h2>
+            <h2> Release Year: 2019</h2>
+            <div class="but">
+                <button id="h">HD</button>
+                <button id="i" @onclick="I4">IMDB</button>
+            </div>
+        </div>
+
+    </div>
+    <br />
+    <div class='Description'>
+        <article>
+            <h3>
+
+                "Our Planet" is a visually stunning nature documentary that showcases Earth's diverse ecosystems and their captivating inhabitants. Through breathtaking cinematography and powerful storytelling, it highlights the beauty of wildlife while emphasizing the urgent need for conservation. The series inspires awe and awareness about the fragile interconnectedness of our planet's natural wonders.
+       </h3> </article>
+
+
+
+    </div>
+</div>
+
+@code {
+    [Inject] NavigationManager NavigationManager7 { get; set; }
+
+
+    public void I4()
+    {
+        NavigationManager7.NavigateTo("https://www.imdb.com/title/tt9253866/?ref_=fn_al_tt_1", forceLoad: true);
+    }
+
+}
+
+}
+<style>
+    * {
+        background-color: black;
+    }
+
+    .Video > iframe {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .MovieDetails > h2 {
+        margin-left: 20px;
+    }
+
+    .MovieDetails > img {
+        width: 10vw;
+        height: 20vh;
+    }
+
+    article {
+        width: 60vw;
+    }
+</style>

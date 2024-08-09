@@ -1,0 +1,67 @@
+﻿@page "/tdkr"
+@rendermode InteractiveServer
+<div class='Movie'>
+    <div class='Video'>
+        <iframe src="https://1drv.ms/v/s!AqExqN6zopwBbEF22_RX0LjwASU?e=xcvgl2"></iframe>
+    </div>
+    <br />
+    <div class='MovieDetails'>
+        <img src="Tdk.jpg" />
+        <div>
+            <h2> Name: The Batman</h2>
+            <h2> Release Year: 2022</h2>
+            <div class="but">
+                <button id="h">HD</button>
+                <button id="i" @onclick="I3">IMDB</button>
+            </div>
+        </div>
+       
+    </div>
+    <br />
+    <div class='Description'>
+        <article>
+            <h3>
+            "The Batman" is a dark and gritty superhero film directed by Matt Reeves, featuring Robert Pattinson as a younger, more detective-focused Bruce Wayne/Batman. Set in Batman's second year of crime-fighting, the story revolves around his investigation into corruption in Gotham City. The film introduces classic villains such as the Riddler, Penguin, and Catwoman, aiming to provide a fresh and psychologically nuanced take on the iconic character.
+            </h3>
+        </article>
+
+
+
+    </div>
+</div>
+
+@code {
+    [Inject] NavigationManager NavigationManager6 { get; set; }
+
+
+    public void I3()
+    {
+        NavigationManager6.NavigateTo("https://www.imdb.com/title/tt1877830/?ref_=fn_al_tt_1", forceLoad: true);
+    }
+
+}
+
+}
+<style>
+    * {
+        background-color: black;
+    }
+
+    .Video  iframe {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .MovieDetails  h2 {
+        margin-left: 20px;
+    }
+
+    .MovieDetails  img {
+        width: 10vw;
+        height: 20vh;
+    }
+
+    article {
+        width: 60vw;
+    }
+</style>

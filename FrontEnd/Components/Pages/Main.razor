@@ -1,0 +1,461 @@
+﻿@page "/main"
+@rendermode InteractiveServer
+<div class="mainA">
+
+
+<div class="main">
+<div class="Page3">
+<div class="navbar">
+    <a>
+    EXODUS
+    </a>
+</div>
+
+<div class="search-container">
+  <input type="text" class="search-input"   placeholder="Enter Exact Movie Name to Search" @bind=@Name />
+  <button class="search-button" @onclick="Search" >Search</button>
+</div>
+
+<div class='TDKR'>
+<h1>
+     Watch Now
+    </h1>
+    <div class='TDKRI'>
+    <img src="theee.jpg"/>
+    </div>
+    <button class='TDKRB' @onclick="TDKR">Play Now</button>
+</div>
+    <br />
+<br />
+<div class='NR'>
+    <h1>
+                    &nbsp Trailers:
+    </h1>
+   <div class='NItems'>
+    <div class='Item'>
+                <img src="ms.jpg"  />
+       
+        <button class="MButton" @onclick="GTA" >
+                Play
+            </button>
+    </div>
+
+                    <div class='Item'>
+                        <img src="lok.jpg" />
+                        <button class="MButton"@onclick="loki">
+                            Play
+                        </button>
+                    </div>
+
+                    <div class='Item'>
+                        <img src="op.jpg" />
+                        <button class="MButton"@onclick=oppen>
+                            Play
+                        </button>
+                    </div>
+                    <div class='Item'>
+                        <img src="cre.jpg" />
+                        <button class="MButton" @onclick="creater">
+                            Play
+                        </button>
+                    </div>
+
+                    <div class='Item'>
+                        <img src="sup.jpg" />
+                        <button class="MButton" @onclick="superman">
+                            Play
+                        </button>
+                    </div>
+
+                    <div class='Item'>
+                        <img src="Fall.jpg" />
+                        <button class="MButton" @onclick="Fall">
+                            Play
+                        </button>
+                    </div>
+                    <div class='Item'>
+                        <img src="geo.jpg" />
+                        <button class="MButton" @onclick="Ghosted">
+                            Play
+                        </button>
+                    </div>
+
+                   
+                    <div class='Item'>
+                        <img src="dr.jpg" />
+                        <button class="MButton" @onclick="dr">
+                            Play
+                        </button>
+                    </div>
+                    <div class='Item'>
+                        <img src="ter.jpg" />
+                        <button class="MButton" @onclick="terminator">
+                            Play
+                        </button>
+                    </div>
+                    
+                </div>
+ 
+</div>
+
+    <br />
+    <br />
+<div class='PR'>
+    <h1>
+                    &nbsp Trending Now:
+    </h1>
+   <div class='PItems'>
+
+                    <div class='Item'>
+                        <img src="Ava.jpg" />
+
+                        <button class="MButton " @onclick="Avatar">
+                            Play
+                        </button>
+                    </div>
+                    <div class='Item'>
+                        <img src="Ave.jpg" />
+
+                        <button class="MButton" @onclick="Avengers">
+                            Play
+                        </button>
+                    </div>
+                    <div class='Item'>
+                        <img src="Tdk.jpg" />
+
+                        <button class="MButton" @onclick="TDKR">
+                            Play
+                        </button>
+                    </div>
+                    <div class='Item'>
+                        <img src="Oup.jpg" />
+
+                        <button class="MButton" @onclick="Life">
+                            Play
+                        </button>
+                    </div>
+                 
+                    <div class='Item'>
+                <img src="Top.jpg" />
+        <button class="MButton" @onclick="Top" >
+                Play
+            </button>
+    </div>
+    <div class='Item'>
+                <img src="Tho.jpg" />
+        <button class="MButton" @onclick="Thor" >
+                Play
+            </button>
+    </div>
+                    <div class='Item' >
+                        <img src="godss.jpg" />
+
+                        <button class="MButton" @onclick="Exodus">
+                            Play
+                        </button>
+                    </div>
+    <div class='Item'>
+                <img src="Kun.jpg" />
+        <button class="MButton" @onclick="Panda" >
+                Play
+            </button>
+    </div>
+    
+    
+    <div class='Item'>
+                <img src="Gen.jpg" />
+                        <button class="MButton" @onclick="Gentle">
+                Play
+            </button>
+    </div>
+
+                  
+        
+   </div>
+   
+</div>
+
+    <br />
+    <br />
+
+<div class='Library'>
+                <h1>&nbspLibrary:</h1>
+    <div class="grid-container">
+  <div class="grid-item">
+    <img src="Ava.jpg" />
+    <button class='Gbutton' @onclick="Avatar" >Watch</button>
+  </div>
+  <div class="grid-item">
+                <img src="Ave.jpg" />
+    <button class='Gbutton' @onclick="Avengers" >Watch</button>
+  </div>
+  <div class="grid-item">
+                <img src="Top.jpg" />
+    <button class='Gbutton' @onclick="Top" >Watch</button>
+  </div>
+  <div class="grid-item">
+                <img src="Tdk.jpg" />
+    <button class='Gbutton' @onclick="TDKR" >Watch</button>
+  </div>
+  <div class="grid-item">
+                <img src="Tho.jpg"/>
+                        <button class='Gbutton' @onclick="Thor">Watch</button>
+  </div>
+  <div class="grid-item">
+                <img src="Kun.jpg">
+    <button class='Gbutton' @onclick="Panda" >Watch</button>
+  </div>
+  <div class="grid-item">
+                <img src="Exo.jpg"/>
+                        <button class='Gbutton' @onclick="Exodus">Watch</button>
+  </div>
+  <div class="grid-item">
+                <img src="Oup.jpg"/>
+                        <button class='Gbutton' @onclick="Life">Watch</button>
+  </div>
+  <div class="grid-item" >
+                <img src="Gen.jpg">
+                        <button class='Gbutton' @onclick="Gentle">Watch</button>
+                    </div>
+</div>
+<br />
+<br />
+<br />
+
+<h1></h1><h1></h1>
+                <p class ="review-text">Want to give a Review ?</p><button class="centered-button" @onclick="Rev">Reviews</button>
+</div>
+
+</div>
+</div>
+    
+</div>
+
+@code {
+    [Inject] NavigationManager NavigationManager3 { get; set; }
+    public void GTA()
+    {
+        NavigationManager3.NavigateTo("https://www.youtube.com/watch?v=QdBZY2fkU-0", forceLoad: true);
+    }
+    public void Fall()
+    {
+        NavigationManager3.NavigateTo("https://www.youtube.com/watch?v=j7jPnwVGdZ8", forceLoad: true);
+    }
+
+
+    public void Ghosted()
+    {
+        NavigationManager3.NavigateTo("https://www.youtube.com/watch?v=IAdCsNtEuBU", forceLoad: true);
+    }
+    public void loki()
+    {
+        NavigationManager3.NavigateTo("https://youtu.be/dug56u8NN7g?si=ZFd2Se5EaIq5XENj", forceLoad: true);
+    }
+    public void superman()
+    {
+        NavigationManager3.NavigateTo("https://youtu.be/T6DJcgm3wNY?si=diDCJ9Xhmpfksfcm", forceLoad: true);
+    }
+    public void creater()
+    {
+        NavigationManager3.NavigateTo("https://youtu.be/ex3C1-5Dhb8?si=NNBS0Ag5S5NDDw9V", forceLoad: true);
+    }
+    public void oppen()
+    {
+        NavigationManager3.NavigateTo("https://youtu.be/uYPbbksJxIg?si=gGySNtLqQLoaNpxF", forceLoad: true);
+    }
+    public void dr()
+    {
+        NavigationManager3.NavigateTo("https://www.youtube.com/watch?v=aWzlQ2N6qqg", forceLoad: true);
+    }
+    public void terminator()
+    {
+        NavigationManager3.NavigateTo("https://www.youtube.com/watch?v=oxy8udgWRmo", forceLoad: true);
+    }
+
+    public void Avatar()
+    {
+        NavigationManager3.NavigateTo("/avatar", forceLoad: true);
+    }
+    public void Avengers()
+    {
+        NavigationManager3.NavigateTo("/avengers", forceLoad: true);
+    }
+    public void TDKR()
+    {
+        NavigationManager3.NavigateTo("/tdkr", forceLoad: true);
+    }
+    public void Life()
+    {
+        NavigationManager3.NavigateTo("/life", forceLoad: true);
+    }
+
+    public void Top()
+    {
+        NavigationManager3.NavigateTo("/top", forceLoad: true);
+    }
+    public void Thor()
+    {
+        NavigationManager3.NavigateTo("/thor", forceLoad: true);
+    }
+    public void Panda()
+    {
+        NavigationManager3.NavigateTo("/panda", forceLoad: true);
+    }
+    public void Exodus()
+    {
+        NavigationManager3.NavigateTo("/exodus", forceLoad: true);
+    }
+    public void Gentle()
+    {
+        NavigationManager3.NavigateTo("/gentle", forceLoad: true);
+    }
+    String Name;
+    int check = 1;
+    public void Search()
+    {
+        if(Name=="Avengers Endgame")
+        {
+            Avengers();
+            check = 0;
+        }
+        if (Name == "Avatar The Way Of Water")
+        {
+            Avatar();
+            check = 0;
+        }
+        if (Name == "The Batman")
+        {
+            TDKR();
+            check = 0;
+        }
+        if (Name == "Top Gun: Maverick")
+        {
+            Top();
+            check = 0;
+        }
+        if (Name == "Kung Fu Panda")
+        {
+            Panda();
+            check = 0;
+        }
+        if (Name == "Exodus Gods and Kings")
+        {
+            Exodus();
+            check = 0;
+        }
+        if (Name == "Thor Ragnarok")
+        {
+            Thor();
+            check = 0;
+        }
+        if (Name == "Our Planet")
+        {
+            Life();
+            check = 0;
+        }
+        if (Name == "The Gentlemen")
+        {
+            Gentle();
+            check = 0;
+        }
+        if (check==1)
+        {
+            NavigationManager3.NavigateTo("/no", forceLoad: true);
+        }
+
+    }
+    private void HandleLocationChanged(object sender, LocationChangedEventArgs e)
+    {
+        // Check if the user is trying to navigate back
+        if (e.Location.Contains("video"))
+        {
+            // If so, navigate them forward to the next page
+            NavigationManager3.NavigateTo("/main");
+        }
+    }
+
+    
+    public void Dispose()
+    {
+        NavigationManager3.LocationChanged -= HandleLocationChanged;
+    }
+
+    public void Rev()
+    {
+        NavigationManager3.NavigateTo("/reviews");
+    }
+}
+
+  <style>
+     
+      .mainA{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+
+      }
+    #As {
+        top:0;
+        left:0;
+       height:300vh;
+       width: 100vw;
+        overflow: hidden;
+        
+    }
+
+    .main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+
+    .centered-button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px; 
+        background-color: darkred;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .Item> img {
+        width: 100%; 
+        height: 450px; 
+        max-width: 300px; 
+        max-height: 450px; 
+    }
+
+    .MButton {
+        background-color: red; 
+        color: white; 
+      
+    }
+
+    .review-text {
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .Gbutton {
+        background-color: red;
+        color: white; 
+       
+    }
+
+    h1 {
+        font-family: Arial, sans-serif; 
+    }
+
+    * {
+        background-color: black;
+        
+    }
+  </style>

@@ -1,0 +1,67 @@
+﻿@page "/top"
+@rendermode InteractiveServer
+<div class='Movie'>
+    <div class='Video'>
+        <iframe src="https://1drv.ms/v/s!Al-fYhZtQj3Ma-jTk9O0x05MKQs?e=Sxe6uj"></iframe>
+    </div>
+    <br />
+    <div class='MovieDetails'>
+        <img src="Top.jpg" />
+        <div>
+            <h2> Name: Top Gun: Maverick</h2>
+            <h2> Release Year: 2022</h2>
+            <div class="but">
+                <button id="h">HD</button>
+                <button id="i" @onclick="I4">IMDB</button>
+            </div>
+        </div>
+
+    </div>
+    <br />
+    <div class='Description'>
+        <article>
+            <h3>
+                "Top Gun: Maverick" is a sequel to the original "Top Gun." It follows Pete "Maverick" Mitchell, now a flight instructor, as he trains a new generation of fighter pilots at the Top Gun Naval Fighter Weapons School. The film explores Maverick's past, introduces new characters, and delves into the evolving dynamics of modern aerial warfare.
+            </h3>
+        </article>
+
+
+
+    </div>
+</div>
+
+@code {
+    [Inject] NavigationManager NavigationManager7 { get; set; }
+
+
+    public void I4()
+    {
+        NavigationManager7.NavigateTo("https://www.imdb.com/title/tt1745960/?ref_=fn_al_tt_2", forceLoad: true);
+    }
+
+}
+
+}
+<style>
+    * {
+        background-color: black;
+    }
+
+    .Video > iframe {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .MovieDetails > h2 {
+        margin-left: 20px;
+    }
+
+    .MovieDetails > img {
+        width: 10vw;
+        height: 20vh;
+    }
+
+    article {
+        width: 60vw;
+    }
+</style>

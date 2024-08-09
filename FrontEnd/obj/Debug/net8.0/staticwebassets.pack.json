@@ -1,0 +1,281 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FrontEnd.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FrontEnd.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\1.jpg",
+      "PackagePath": "staticwebassets\\1.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\2.jpg",
+      "PackagePath": "staticwebassets\\2.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\2d27acd5d288284587e13b0411e6e48a.jpg",
+      "PackagePath": "staticwebassets\\2d27acd5d288284587e13b0411e6e48a.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\3.jpg",
+      "PackagePath": "staticwebassets\\3.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\4.jpg",
+      "PackagePath": "staticwebassets\\4.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\5.jpg",
+      "PackagePath": "staticwebassets\\5.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\6.jpg",
+      "PackagePath": "staticwebassets\\6.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\7.jpg",
+      "PackagePath": "staticwebassets\\7.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\8.jpg",
+      "PackagePath": "staticwebassets\\8.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\9.jpg",
+      "PackagePath": "staticwebassets\\9.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\As.jpg",
+      "PackagePath": "staticwebassets\\As.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\As.png",
+      "PackagePath": "staticwebassets\\As.png"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Ass.png",
+      "PackagePath": "staticwebassets\\Ass.png"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Ava.jpg",
+      "PackagePath": "staticwebassets\\Ava.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Ave.jpg",
+      "PackagePath": "staticwebassets\\Ave.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Batman.jpg",
+      "PackagePath": "staticwebassets\\Batman.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Exo.jpg",
+      "PackagePath": "staticwebassets\\Exo.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Fall.jpg",
+      "PackagePath": "staticwebassets\\Fall.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Gen.jpg",
+      "PackagePath": "staticwebassets\\Gen.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Kun.jpg",
+      "PackagePath": "staticwebassets\\Kun.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\O.jpg",
+      "PackagePath": "staticwebassets\\O.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\One.jpg",
+      "PackagePath": "staticwebassets\\One.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Oup.jpg",
+      "PackagePath": "staticwebassets\\Oup.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Star.jpg",
+      "PackagePath": "staticwebassets\\Star.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\T.png",
+      "PackagePath": "staticwebassets\\T.png"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Tdk.jpg",
+      "PackagePath": "staticwebassets\\Tdk.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Th.jpg",
+      "PackagePath": "staticwebassets\\Th.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Tho.jpg",
+      "PackagePath": "staticwebassets\\Tho.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Top.jpg",
+      "PackagePath": "staticwebassets\\Top.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\Two.png",
+      "PackagePath": "staticwebassets\\Two.png"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\avaa.PNG",
+      "PackagePath": "staticwebassets\\avaa.PNG"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\bar.jpg",
+      "PackagePath": "staticwebassets\\bar.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\batma.jpg",
+      "PackagePath": "staticwebassets\\batma.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\bt.jpg",
+      "PackagePath": "staticwebassets\\bt.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\btm.jpg",
+      "PackagePath": "staticwebassets\\btm.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\btmn.png",
+      "PackagePath": "staticwebassets\\btmn.png"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\cre.jpg",
+      "PackagePath": "staticwebassets\\cre.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\dare.jpg",
+      "PackagePath": "staticwebassets\\dare.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\darks.jpg",
+      "PackagePath": "staticwebassets\\darks.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\dav.jpg",
+      "PackagePath": "staticwebassets\\dav.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\dosta.jpg",
+      "PackagePath": "staticwebassets\\dosta.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\dr.jpg",
+      "PackagePath": "staticwebassets\\dr.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\ends.jpg",
+      "PackagePath": "staticwebassets\\ends.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\geo.jpg",
+      "PackagePath": "staticwebassets\\geo.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\gf.jpg",
+      "PackagePath": "staticwebassets\\gf.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\gff.jpg",
+      "PackagePath": "staticwebassets\\gff.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\gg.jpg",
+      "PackagePath": "staticwebassets\\gg.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\ghos.jpg",
+      "PackagePath": "staticwebassets\\ghos.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\godss.jpg",
+      "PackagePath": "staticwebassets\\godss.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\hamza.jpg",
+      "PackagePath": "staticwebassets\\hamza.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\kong.jpg",
+      "PackagePath": "staticwebassets\\kong.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\life.jpg",
+      "PackagePath": "staticwebassets\\life.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\logo.svg",
+      "PackagePath": "staticwebassets\\logo.svg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\lok.jpg",
+      "PackagePath": "staticwebassets\\lok.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\miss.jpg",
+      "PackagePath": "staticwebassets\\miss.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\ms.jpg",
+      "PackagePath": "staticwebassets\\ms.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\op.jpg",
+      "PackagePath": "staticwebassets\\op.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\sup.jpg",
+      "PackagePath": "staticwebassets\\sup.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\ter.jpg",
+      "PackagePath": "staticwebassets\\ter.jpg"
+    },
+    {
+      "Id": "D:\\SummerSchool\\ExodusApp\\FrontEnd\\wwwroot\\theee.jpg",
+      "PackagePath": "staticwebassets\\theee.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FrontEnd.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FrontEnd.props",
+      "PackagePath": "build\\FrontEnd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FrontEnd.props",
+      "PackagePath": "buildMultiTargeting\\FrontEnd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FrontEnd.props",
+      "PackagePath": "buildTransitive\\FrontEnd.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,77 @@
+﻿@page "/avatar" 
+@rendermode InteractiveServer
+<div class='Movie'>
+      <div class='Video'>
+        <iframe src="https://1drv.ms/v/s!Ahz5kkc5ICOkgTQuhAcQmhZhl6oi?e=YFkvsm" ></iframe>
+      </div>
+    <br />
+      <div class='MovieDetails'>
+        <img src="Ava.jpg" />
+         <div>
+          <h2> Name: Avatar The Way Of Water</h2>
+          <h2> Release Year: 2022</h2>
+          <div class="but">
+              <button id="h">HD</button>
+              <button id="i" @onclick="I1">IMDB</button>
+          </div>
+         </div>
+      </div>
+      <br />
+      <div class='Description'>
+        <article >
+            <h3>
+        "Avatar: The Way of Water" continues the epic saga set on the alien world of Pandora, where new adventures unfold as humans and Na'vi navigate conflicts over resources and culture. Focusing on the underwater environments, the film explores the mystical connection between the characters and Pandora's diverse ecosystems. As relationships evolve and alliances are tested, the movie delves into themes of environmental harmony and the quest for understanding between different civilizations
+            </h3>
+    </article>
+
+
+
+      </div>
+    </div>
+
+@code {
+    [Inject] NavigationManager NavigationManager4 { get; set; }
+
+
+    public void I1()
+    {
+        NavigationManager4.NavigateTo("https://www.imdb.com/title/tt1630029/?ref_=fn_al_tt_2", forceLoad: true);
+    }
+  
+}
+    
+}
+<style>
+    *{
+        background-color:black;
+    }
+
+    .Video > iframe{
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .MovieDetails > h2 {
+       margin-left:20px;
+    }
+
+    .MovieDetails > img{
+        width:10vw;
+        height:20vh;
+    }
+    article{
+        width:60vw;
+    }
+
+   #h{
+   width:100px;
+   background-color:whitesmoke;
+   color:black;
+   }
+
+    #i {
+        width: 100px;
+        background-color: yellow;
+        color: black;
+    }
+</style>

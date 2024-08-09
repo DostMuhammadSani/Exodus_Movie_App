@@ -1,0 +1,69 @@
+﻿@page "/exodus"
+@rendermode InteractiveServer
+<div class='Movie'>
+    <div class='Video'>
+        <iframe src="https://1drv.ms/v/s!Ahz5kkc5ICOkgTEB9erYpWVT3hP6?e=BaGBVb"></iframe>
+    </div>
+    <br />
+    <div class='MovieDetails'>
+        <img src="Exo.jpg" />
+        <div>
+            <h2> Name: Exodus Gods and Kings</h2>
+            <h2> Release Year: 2014</h2>
+            <div class="but">
+                <button id="h">HD</button>
+                <button id="i" @onclick="I7">IMDB</button>
+            </div>
+        </div>
+
+    </div>
+    <br />
+    <div class='Description'>
+        <article>
+            <h3>
+
+                "Exodus: Gods and Kings" offers a cinematic retelling of the biblical story of Moses and his mission to free the Hebrew slaves from the oppressive rule of Pharaoh Ramses. The film portrays Moses' transformation from a favored prince to a determined leader, as he challenges Ramses and brings about the ten plagues of Egypt. Through grand visuals and dramatic storytelling, the movie explores themes of faith, justice, and the struggle for freedom against a backdrop of epic historical events.
+
+            </h3>
+        </article>
+
+
+
+    </div>
+</div>
+
+@code {
+    [Inject] NavigationManager NavigationManager10 { get; set; }
+
+
+    public void I7()
+    {
+        NavigationManager10.NavigateTo("https://www.imdb.com/title/tt1528100/?ref_=fn_al_tt_2", forceLoad: true);
+    }
+
+}
+
+}
+<style>
+    * {
+        background-color: black;
+    }
+
+    .Video > iframe {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .MovieDetails > h2 {
+        margin-left: 20px;
+    }
+
+    .MovieDetails > img {
+        width: 10vw;
+        height: 20vh;
+    }
+
+    article {
+        width: 60vw;
+    }
+</style>

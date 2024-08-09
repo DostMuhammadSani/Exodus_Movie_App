@@ -1,0 +1,102 @@
+﻿@page "/reviews"
+@rendermode InteractiveServer
+@using ClassLibraryModel
+@using ClassLibrarydal
+
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .btn-signup {
+        background-color: darkred;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .btn-signupp {
+        background-color: darkred;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 70px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+   
+</style>
+
+<h3>REVIEWS</h3>
+
+<div class="sign-container">
+    
+    <div class="form-group">
+        <label>Enter Name:  </label>
+        <input type="text" placeholder="Enter username" @bind="modelStudent2.UserName" />
+    </div>
+    <div class="form-group">
+        <label>Enter Review:</label>
+        <input type="text" placeholder="Review:" @bind="modelStudent2.Review" />
+    </div>
+
+    <button @onclick="saveStudent" type="button" class="btn-signup">Save</button>
+     <H2>All REVIEWS</H2>
+    @foreach (ModelReview m in Models)
+    {
+        <div class="review-item">
+
+            <p><b>@m.UserName</b> : @m.Review</p>
+        </div>
+    }
+</div>
+<button class="btn-signupp" @onclick="NavigateToContact" >Contact Us</button>
+
+
+
+@code {
+    [Inject] NavigationManager NavigationManager9 { get; set; }
+    ModelReview modelStudent2 = new ModelReview();
+    List<ModelReview> Models = new List<ModelReview>();
+
+
+    protected override void OnInitialized()
+    {
+        Models = DALClass.GetInformation2();
+        base.OnInitialized();
+    }
+
+    public void saveStudent()
+    {
+        DALClass.SaveInformation2(modelStudent2);
+        Models = DALClass.GetInformation2(); 
+        modelStudent2 = new ModelReview(); 
+    }
+
+
+
+    private void NavigateToContact()
+    {
+        
+        NavigationManager9.NavigateTo("/contact");
+    }
+
+
+}
